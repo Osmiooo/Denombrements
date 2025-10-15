@@ -47,7 +47,7 @@ namespace Denombrements
                         //Console.WriteLine("résultat = " + (r1 / r2));
                         Console.WriteLine("A(" + t + "/" + n + ") = " + r);
                     }
-                    else
+                    else if (c == 3)
                     {
                         Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
                         int t = int.Parse(Console.ReadLine()); // saisir le nombre
